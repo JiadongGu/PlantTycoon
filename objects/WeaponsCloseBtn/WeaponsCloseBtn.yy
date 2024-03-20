@@ -1,15 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "UpgradePay",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
-  ],
+  "name": "WeaponsCloseBtn",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "UpgradeGUI",
-    "path": "folders/Objects/UpgradeGUI.yy",
+    "name": "WeaponsGUI",
+    "path": "folders/Objects/WeaponsGUI.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Upgrade_Pay",
-    "path": "sprites/Upgrade_Pay/Upgrade_Pay.yy",
+    "name": "Close_Btn",
+    "path": "sprites/Close_Btn/Close_Btn.yy",
   },
   "spriteMaskId": null,
   "visible": true,
