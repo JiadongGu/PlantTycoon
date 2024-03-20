@@ -4,5 +4,5 @@ if(WeaponsGUI.visible == true){
 	WeaponsGUI.visible = false;
 }
 else if(WeaponsGUI.visible == false){
-	WeaponsGUi.visible = true;
+	WeaponsGUI.visible = true;
 }
