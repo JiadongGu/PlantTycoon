@@ -1,15 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Mainclickplant",
+  "name": "UpgradeCloseBtn",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "UpgradeGUI",
+    "path": "folders/Objects/UpgradeGUI.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,11 +26,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "Basic_Sprite",
-    "path": "sprites/Basic_Sprite/Basic_Sprite.yy",
+    "name": "Close_Btn",
+    "path": "sprites/Close_Btn/Close_Btn.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

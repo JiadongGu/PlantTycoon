@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-scores = 0;
+GameManager.scores += 1;
