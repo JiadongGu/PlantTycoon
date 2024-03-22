@@ -32,5 +32,5 @@
     "path": "sprites/Upgrade_Pay/Upgrade_Pay.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

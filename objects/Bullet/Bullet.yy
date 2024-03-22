@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "WeaponsScreen",
-  "eventList": [],
+  "name": "Bullet",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "WeaponsGUI",
-    "path": "folders/Objects/WeaponsGUI.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,9 +28,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Upgrade_Screen",
-    "path": "sprites/Upgrade_Screen/Upgrade_Screen.yy",
+    "name": "Bullet_Sprite",
+    "path": "sprites/Bullet_Sprite/Bullet_Sprite.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

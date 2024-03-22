@@ -1,9 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(UpgradeScreen.visible == true){
-	UpgradeScreen.visible = false;
-}
-else if(UpgradeScreen.visible == false){
-	UpgradeScreen.visible = true;
-}
+UpgradePay.visible = false;
+UpgradeButton.visible = false;
+UpgradeScreen.visible = false;
 visible = false;

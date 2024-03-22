@@ -30,5 +30,5 @@
     "path": "sprites/Upgrade_Base/Upgrade_Base.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
