@@ -14,6 +14,12 @@ else if(UpgradeScreen.visible == false){
 	UpgradeScreen.visible = true;
 }
 
+if(UpgradeBase.visible == true){
+	UpgradeBase.visible = false;
+}
+else if(UpgradeBase.visible == false){
+	UpgradeBase.visible = true;
+}
 
 
 if(UpgradePay.visible == true){
