@@ -8,3 +8,4 @@ timetest = 100;
 shrub_count = 0;
 palm_count = 0;
 hibiscus_count = 0;
+view_camera[0] = camera_create_view(0, 0, 640, 480, 0, Player, 5, 5, -1, -1);
