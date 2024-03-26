@@ -31,7 +31,6 @@
     {"name":"UpgradeScreen","order":3,"path":"objects/UpgradeScreen/UpgradeScreen.yy",},
     {"name":"UpgradeShrubPay","order":4,"path":"objects/UpgradeShrubPay/UpgradeShrubPay.yy",},
     {"name":"UpgradeTreePay","order":5,"path":"objects/UpgradeTreePay/UpgradeTreePay.yy",},
-    {"name":"WeaponsCloseBtn","order":2,"path":"objects/WeaponsCloseBtn/WeaponsCloseBtn.yy",},
     {"name":"WeaponsScreen","order":1,"path":"objects/WeaponsScreen/WeaponsScreen.yy",},
     {"name":"Bullet_Sprite","order":7,"path":"sprites/Bullet_Sprite/Bullet_Sprite.yy",},
     {"name":"Close_Btn","order":3,"path":"sprites/Close_Btn/Close_Btn.yy",},

@@ -51,7 +51,6 @@
     {"id":{"name":"UpgradeShrubPay","path":"objects/UpgradeShrubPay/UpgradeShrubPay.yy",},},
     {"id":{"name":"UpgradeTreePay","path":"objects/UpgradeTreePay/UpgradeTreePay.yy",},},
     {"id":{"name":"WeaponsButton","path":"objects/WeaponsButton/WeaponsButton.yy",},},
-    {"id":{"name":"WeaponsCloseBtn","path":"objects/WeaponsCloseBtn/WeaponsCloseBtn.yy",},},
     {"id":{"name":"WeaponsScreen","path":"objects/WeaponsScreen/WeaponsScreen.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Basic_Sprite","path":"sprites/Basic_Sprite/Basic_Sprite.yy",},},
