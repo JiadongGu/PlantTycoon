@@ -20,18 +20,18 @@ if(yspeed < 0)
 	yspeed += 1;
 }
 
-if ( keyboard_check(vk_left) ) {
+if(keyboard_check(ord("A"))) {
       xspeed = -10;
       dir = -1;
-} else
-if ( keyboard_check(vk_right) ) {
+}
+if (keyboard_check(ord("D"))){
       xspeed = 10;
       dir = 1;
 }
-if (keyboard_check(vk_up)){
+if (keyboard_check(ord("W"))){
 	 yspeed = -10;
 }
-if (keyboard_check(vk_down)){
+if (keyboard_check(ord("S"))){
 	 yspeed = 10;
 }
 if (mouse_check_button(mb_left))

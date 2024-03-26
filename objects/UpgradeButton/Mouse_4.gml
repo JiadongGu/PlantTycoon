@@ -22,9 +22,31 @@ else if(UpgradeBase.visible == false){
 }
 
 
-if(UpgradePay.visible == true){
-	UpgradePay.visible = false;
+if(UpgradeShrubPay.visible == true){
+	UpgradeShrubPay.visible = false;
 }
-else if(UpgradePay.visible == false){
-	UpgradePay.visible = true;
+else if(UpgradeShrubPay.visible == false){
+	UpgradeShrubPay.visible = true;
 }
+
+
+if(UpgradeTreePay.visible == true){
+	UpgradeTreePay.visible = false;
+}
+else if(UpgradeTreePay.visible == false){
+	UpgradeTreePay.visible = true;
+}
+
+if(UpgradeHibiscusPay.visible == true){
+	UpgradeHibiscusPay.visible = false;
+}
+else if(UpgradeHibiscusPay.visible == false){
+	UpgradeHibiscusPay.visible = true;
+}
+if(UpgradeExtraPay.visible == true){
+	UpgradeExtraPay.visible = false;
+}
+else if(UpgradeExtraPay.visible == false){
+	UpgradeExtraPay.visible = true;
+}
+

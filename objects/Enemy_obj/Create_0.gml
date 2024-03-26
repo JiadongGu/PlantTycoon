@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 speed = 8
-health = 10
+hp = 10

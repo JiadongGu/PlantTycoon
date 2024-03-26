@@ -15,20 +15,20 @@ hibiscuscount = 0
 function changetext(input){
 	text = input;
 }
-function changeshrubs(){
+function changeshrubs(input){
 	shrubcount += 1;
 	shrubincome += 1;
-	shrubtext = "Shrubs: " + shrubcount + ". Making " + shrubincome + "$/second";
+	shrubtext = "Shrubs: " + string(shrubcount) + ". Making " + string(shrubincome) + "$/second";
 }
-function changepalms(){
+function changepalms(input){
 	palmcount += 1;
 	palmincome += 3
-	palmtext = "Palm trees: " + palmcount + ". Making " + palmincome + "$/second";
+	palmtext = "Palm trees: " + string(palmcount) + ". Making " + string(palmincome) + "$/second";
 }
-function changehibiscus(){
+function changehibiscus(input){
 	hibiscuscount += 1;
 	hibiscusincome += 10;
-	palmtext = "Hibiscus flowers: " + hibiscuscount + ". Making " + hibiscusincome + "$/second";
+	palmtext = "Hibiscus flowers: " + string(hibiscuscount) + ". Making " + string(hibiscusincome) + "$/second";
 }
 
 
