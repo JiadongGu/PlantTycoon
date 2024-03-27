@@ -8,4 +8,16 @@ timetest = 100;
 shrub_count = 0;
 palm_count = 0;
 hibiscus_count = 0;
-view_camera[0] = camera_create_view(0, 0, 1350, 600, 0, Player, -1, -1, 400, 600);
+currentgridx = 0;
+currentgridy = 0;
+currlength = 1;
+currcount = 0;
+view_camera[0] = camera_create_view(0, 0, 1350, 700, 0, Player, -1, -1, 600, 350);
+function spawnShrub()
+{
+	instance_create_layer(random_range(0,1300),random_range(0,700),"Instances",FriendlyShrubUnit);
+}
+function spawnPalm()
+{
+	instance_create_layer(random_range(0,1300),random_range(0,700),"Instances",FriendlyPalmUnit);
+}

@@ -5,3 +5,7 @@ with ScoreDisplay
 {
 	changepalms("Yes")
 }
+with GameManager
+{
+	spawnPalm();
+}

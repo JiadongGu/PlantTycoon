@@ -5,3 +5,7 @@ with ScoreDisplay
 {
 	changeshrubs("Yes")
 }
+with GameManager
+{
+	spawnShrub();
+}
