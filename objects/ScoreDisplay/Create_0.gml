@@ -22,7 +22,7 @@ function changeshrubs(input){
 }
 function changepalms(input){
 	palmcount += 1;
-	palmincome += 3
+	palmincome += 10;
 	palmtext = "Palm trees: " + string(palmcount) + ". Making " + string(palmincome) + "$/second";
 }
 function changehibiscus(input){
