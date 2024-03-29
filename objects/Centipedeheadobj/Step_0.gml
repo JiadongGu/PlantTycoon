@@ -5,7 +5,7 @@ speed = 3
 image_angle = direction
 if(array_length(listofsegments) <= 100)
 {
-	listofsegments[array_length(listofsegments)] = instance_create_layer(x+lengthdir_x(20,image_angle-180),y+lengthdir_y(20,image_angle-180),"Instances",Centipedesegment);
+	listofsegments[array_length(listofsegments)] = instance_create_layer(x+lengthdir_x(20,image_angle-180),y+lengthdir_y(20,image_angle-180),"Instances",Centipedebodyobj);
 /*for(var i = 0; i < array_length(listofsegments); i++)
 {
 listofsegments[i].speed = 1;

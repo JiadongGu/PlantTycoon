@@ -17,7 +17,7 @@ if(yspeed < 0)
 {
 	yspeed += 1;
 }
-if(x < -1000)
+if(x < -0)
 {
 	xspeed = 0
 	x += 20
@@ -27,12 +27,12 @@ if(x > 1000)
 	xspeed = 0;
 	x -= 20
 }
-if(y > 1000)
+if(y > 500)
 {
 	yspeed = 0;
 	y -= 20
 }
-if(y < -1000)
+if(y < -0)
 {
 	yspeed = 0;
 	y += 20

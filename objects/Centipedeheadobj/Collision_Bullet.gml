@@ -1,4 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-listofsegments = []
-helt = 50;
+helt -= 1;
+if(helt <= 0)
+{
+	instance_destroy(id);
+}
