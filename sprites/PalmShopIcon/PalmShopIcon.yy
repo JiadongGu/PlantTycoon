@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"Upgrade_Pay",
+  "%Name":"PalmShopIcon",
   "bboxMode":0,
-  "bbox_bottom":78,
-  "bbox_left":7,
-  "bbox_right":270,
+  "bbox_bottom":475,
+  "bbox_left":13,
+  "bbox_right":438,
   "bbox_top":6,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"465495b6-0750-4bd2-a17f-b89adb39d5fc","name":"465495b6-0750-4bd2-a17f-b89adb39d5fc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"bbb0e00e-85c1-4be1-a1d5-45c968bb9175","name":"bbb0e00e-85c1-4be1-a1d5-45c968bb9175","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":83,
+  "height":481,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d415f9e1-00b8-4ca9-a04f-1a3d32838770","blendMode":0,"displayName":"default","isLocked":false,"name":"d415f9e1-00b8-4ca9-a04f-1a3d32838770","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"2a3765bd-0b38-4bb5-ab28-64e32ba21fbe","blendMode":0,"displayName":"default","isLocked":false,"name":"2a3765bd-0b38-4bb5-ab28-64e32ba21fbe","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Upgrade_Pay",
+  "name":"PalmShopIcon",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Upgrade_Pay",
+    "%Name":"PalmShopIcon",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Upgrade_Pay",
+    "name":"PalmShopIcon",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"465495b6-0750-4bd2-a17f-b89adb39d5fc","path":"sprites/Upgrade_Pay/Upgrade_Pay.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"406c73d1-8be0-49a8-82f9-4d0dac40f982","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bbb0e00e-85c1-4be1-a1d5-45c968bb9175","path":"sprites/PalmShopIcon/PalmShopIcon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"35858d3a-3c94-4528-b8e2-8f3a08d5de96","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -79,12 +79,12 @@
     "yorigin":0,
   },
   "swatchColours":null,
-  "swfPrecision":2.525,
+  "swfPrecision":0.5,
   "textureGroupId":{
     "name":"Default",
     "path":"texturegroups/Default",
   },
   "type":0,
   "VTile":false,
-  "width":280,
+  "width":444,
 }

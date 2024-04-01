@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"UpgradeBase",
+  "%Name":"UpgradePalm",
   "eventList":[],
   "managed":true,
-  "name":"UpgradeBase",
+  "name":"UpgradePalm",
   "overriddenProperties":[],
   "parent":{
     "name":"UpgradeGUI",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Upgrade_Base",
-    "path":"sprites/Upgrade_Base/Upgrade_Base.yy",
+    "name":"PalmShopIcon",
+    "path":"sprites/PalmShopIcon/PalmShopIcon.yy",
   },
   "spriteMaskId":null,
   "visible":false,

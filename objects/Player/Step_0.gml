@@ -56,6 +56,7 @@ if (keyboard_check(ord("S"))){
 if (mouse_check_button(mb_left))
 {
 	instance_create_layer(x, y, layer, Bullet);
+	instance_create_layer(x, y, layer, Bulletcasingobj);
 }
 else {
       dir = 0;

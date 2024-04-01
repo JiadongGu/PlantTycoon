@@ -18,13 +18,13 @@ else if(UpgradeScreen.visible == false){
 	instance_activate_object(UpgradeScreen)
 }
 
-if(UpgradeBase.visible == true){
-	UpgradeBase.visible = false;
-	instance_deactivate_object(UpgradeBase)
+if(UpgradeHibiscus.visible == true){
+	UpgradeHibiscus.visible = false;
+	instance_deactivate_object(UpgradeHibiscus)
 }
-else if(UpgradeBase.visible == false){
-	UpgradeBase.visible = true;
-	instance_activate_object(UpgradeBase)
+else if(UpgradeHibiscus.visible == false){
+	UpgradeHibiscus.visible = true;
+	instance_activate_object(UpgradeHibiscus)
 }
 
 
