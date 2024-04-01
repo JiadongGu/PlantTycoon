@@ -9,14 +9,6 @@ else if(UpgradeCloseBtn.visible == false){
 	instance_activate_object(UpgradeCloseBtn)
 }
 
-if(UpgradeScreen.visible == true){
-	UpgradeScreen.visible = false;
-	instance_deactivate_object(UpgradeScreen)
-}
-else if(UpgradeScreen.visible == false){
-	UpgradeScreen.visible = true;
-	instance_activate_object(UpgradeScreen)
-}
 
 if(UpgradeHibiscus.visible == true){
 	UpgradeHibiscus.visible = false;

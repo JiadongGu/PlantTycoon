@@ -1,7 +1,11 @@
 {
   "$GMObject":"",
   "%Name":"UpgradeHibiscus",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":74,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":75,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"UpgradeHibiscus",
   "overriddenProperties":[],
@@ -28,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ShrubShopIcon",
-    "path":"sprites/ShrubShopIcon/ShrubShopIcon.yy",
+    "name":"HibiscusShopIcon",
+    "path":"sprites/HibiscusShopIcon/HibiscusShopIcon.yy",
   },
   "spriteMaskId":null,
   "visible":false,
