@@ -1,16 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"UpgradeTreePay",
+  "%Name":"HibBomb",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Enemy_obj","path":"objects/Enemy_obj/Enemy_obj.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"UpgradeTreePay",
+  "name":"HibBomb",
   "overriddenProperties":[],
   "parent":{
-    "name":"UpgradeGUI",
-    "path":"folders/Objects/UpgradeGUI.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,9 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Upgrade_Pay",
-    "path":"sprites/Upgrade_Pay/Upgrade_Pay.yy",
+    "name":"HomingHibiscusSpr",
+    "path":"sprites/HomingHibiscusSpr/HomingHibiscusSpr.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

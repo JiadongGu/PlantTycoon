@@ -13,7 +13,7 @@ currentgridx = 0;
 currentgridy = 0;
 currlength = 1;
 currcount = 0;
-view_camera[0] = camera_create_view(-500, -500, 1360, 760, 0, Player, -1, -1, 690, 384);
+view_camera[0] = camera_create_view(1000, 750, 1300, 750, 0, Player, -1, -1, 2000, 2000);
 function spawnShrub()
 {
 	instance_create_layer(random_range(0,1300),random_range(0,700),"Instances",FriendlyShrubUnit);
@@ -21,4 +21,8 @@ function spawnShrub()
 function spawnPalm()
 {
 	instance_create_layer(random_range(0,1300),random_range(0,700),"Instances",FriendlyPalmUnit);
+}
+function spawnHibiscus()
+{
+	instance_create_layer(random_range(0,1300),random_range(0,700),"Instances",FriendlyHibiscusUnit);
 }

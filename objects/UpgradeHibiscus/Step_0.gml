@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_self()
+x = Player.x + 200
+y = Player.y - 200

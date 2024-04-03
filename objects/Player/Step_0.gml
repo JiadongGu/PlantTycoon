@@ -17,22 +17,22 @@ if(yspeed < 0)
 {
 	yspeed += 1;
 }
-if(x < -0)
+if(x < 500)
 {
 	xspeed = 0
 	x += 20
 }
-if(x > 1000)
+if(x > 3000)
 {
 	xspeed = 0;
 	x -= 20
 }
-if(y > 500)
+if(y > 3000)
 {
 	yspeed = 0;
 	y -= 20
 }
-if(y < -0)
+if(y < 500)
 {
 	yspeed = 0;
 	y += 20
@@ -56,6 +56,7 @@ if (keyboard_check(ord("S"))){
 if (mouse_check_button(mb_left))
 {
 	instance_create_layer(x, y, layer, Bullet);
+	instance_create_layer(x, y, layer, Screenflash);
 	instance_create_layer(x, y, layer, Bulletcasingobj);
 }
 else {

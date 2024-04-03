@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-UpgradeBase.visible = false;
+UpgradeHibiscus.visible = false
+UpgradeHibiscusPay.visible = false
+UpgradePalm.visible = false
+UpgradeTreePay.visible = false
+UpgradeShrub.visible = false
 UpgradeShrubPay.visible = false;
-UpgradeTreePay.visible = false;
-UpgradeHibiscusPay.visible = false;
-UpgradeExtraPay.visible = false;
-UpgradeScreen.visible = false;
 visible = false;

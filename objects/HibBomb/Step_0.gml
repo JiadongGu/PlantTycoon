@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-x = Player.x - 600
-y = Player.y - 300
+if(alarm_get(0) <= 0)
+{
+	instance_destroy(id)
+}
