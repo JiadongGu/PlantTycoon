@@ -31,5 +31,4 @@ function changehibiscus(input){
 	palmtext = "Hibiscus flowers: " + string(hibiscuscount) + ". Making " + string(hibiscusincome) + "$/second";
 }
 
-
 draw_set_colour(c_green);

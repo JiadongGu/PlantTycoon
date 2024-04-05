@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"Effects",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Effects",
+  "parent":{
+    "name":"Objects",
+    "path":"folders/Objects.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

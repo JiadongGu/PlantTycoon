@@ -5,6 +5,7 @@ ispaused = false
 automaticgain = 0;
 alarm[0] = 60;
 alarm[1] = 100;
+alarm[2] = 15;
 timetest = 100;
 shrub_count = 0;
 palm_count = 0;
@@ -13,6 +14,9 @@ currentgridx = 0;
 currentgridy = 0;
 currlength = 1;
 currcount = 0;
+currWave = 1;
+enemiesSpawned = 0;
+waveenemies = []
 view_camera[0] = camera_create_view(1000, 750, 1300, 750, 0, Player, -1, -1, 2000, 2000);
 function spawnShrub()
 {

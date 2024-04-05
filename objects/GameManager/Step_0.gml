@@ -6,31 +6,31 @@ if(alarm_get(0) <= 1)
 	scores += automaticgain;
 	alarm[0] = 60;
 }
-if(alarm_get(1) <= 1)
+
+if(alarm_get(2) <= 1)
 {
-	test = irandom_range(0,4)
-	show_debug_message(test);
-	if(test == 0)
+	enemiesSpawned += 1;
+	if(enemiesSpawned >= currWave * 100)
 	{
-		show_debug_message("CREATED ENEMY");
-		instance_create_layer(0,random_range(0,768), "Instances",Enemy_obj)
+		enemiesSpawned = 0;
+		currWave += 1;
 	}
-	if(test == 1)
+	var determinant = irandom_range(0,4)
+	if(determinant == 0)
 	{
-		show_debug_message("CREATED ENEMY");
-		instance_create_layer(1366,random_range(0,768), "Instances",Enemy_obj)
+		waveenemies[array_length(waveenemies)] = instance_create_layer(irandom(4000),0,"Instances",Enemy_obj)
 	}
-	if(test == 2)
+	if(determinant == 1)
 	{
-		show_debug_message("CREATED ENEMY");
-		instance_create_layer(random_range(0,1366), 0, "Instances", Enemy_obj)
+		waveenemies[array_length(waveenemies)] = instance_create_layer(irandom(4000),4000, "Instances",Enemy_obj)
 	}
-	if(test == 3)
+	if(determinant == 2)
 	{
-		show_debug_message("CREATED ENEMY");
-		instance_create_layer(random_range(0,1366), 768, "Instances", Enemy_obj)
+		waveenemies[array_length(waveenemies)] = instance_create_layer(0,irandom(4000),"Instances",Enemy_obj)
 	}
-	timetest -= 1;
-	alarm[1] = timetest;
+	if(determinant == 3)
+	{
+		waveenemies[array_length(waveenemies)] = instance_create_layer(4000,irandom(4000),"Instances",Enemy_obj)
+	}
 }
 //yeah
