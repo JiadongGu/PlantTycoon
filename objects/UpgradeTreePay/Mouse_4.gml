@@ -1,11 +1,24 @@
 /// @description Insert description here
 // You can write your code in this editor
-GameManager.automaticgain += 5;
-with ScoreDisplay
+if(visible == true)
 {
-	changepalms("Yes")
-}
-with GameManager
-{
-	spawnPalm();
+	with GameManager
+	{
+		if(scores > 75){
+			scores -= 75;
+			GameManager.automaticgain += 5;
+			with ScoreDisplay
+			{
+				changepalms("Yes")
+			}
+			UpgradeHibiscus.visible = false
+			UpgradeHibiscusPay.visible = false
+			UpgradePalm.visible = false
+			UpgradeTreePay.visible = false
+			UpgradeShrub.visible = false
+			UpgradeShrubPay.visible = false;
+			UpgradeCloseBtn.visible = false;
+			instance_create_layer(mouse_x,mouse_y,"Instances",PalmBlueprint)
+		}
+	}
 }

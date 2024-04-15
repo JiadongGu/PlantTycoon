@@ -53,7 +53,7 @@ if (keyboard_check(ord("W"))){
 if (keyboard_check(ord("S"))){
 	 yspeed = 10;
 }
-if (mouse_check_button(mb_left))
+if (mouse_check_button(mb_left) && !object_get_visible(UpgradeShrub))
 {
 	instance_create_layer(x, y, layer, Bullet);
 	instance_create_layer(x, y, layer, Screenflash);
