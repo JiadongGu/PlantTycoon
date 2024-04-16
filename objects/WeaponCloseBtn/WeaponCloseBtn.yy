@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"HibMissile",
+  "%Name":"WeaponCloseBtn",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Enemy_obj","path":"objects/Enemy_obj/Enemy_obj.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"HibMissile",
+  "name":"WeaponCloseBtn",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"WeaponsGUI",
+    "path":"folders/Objects/WeaponsGUI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"HibiscusSubmunition",
-    "path":"sprites/HibiscusSubmunition/HibiscusSubmunition.yy",
+    "name":"Close_Btn",
+    "path":"sprites/Close_Btn/Close_Btn.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

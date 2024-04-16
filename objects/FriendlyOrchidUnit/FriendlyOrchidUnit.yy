@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"WeaponsButton",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"FriendlyOrchidUnit",
+  "eventList":[],
   "managed":true,
-  "name":"WeaponsButton",
+  "name":"FriendlyOrchidUnit",
   "overriddenProperties":[],
   "parent":{
-    "name":"WeaponsGUI",
-    "path":"folders/Objects/WeaponsGUI.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Upgrade_Base",
-    "path":"sprites/Upgrade_Base/Upgrade_Base.yy",
+    "name":"OrchidSprite",
+    "path":"sprites/OrchidSprite/OrchidSprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
