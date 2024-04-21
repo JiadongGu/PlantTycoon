@@ -12,7 +12,6 @@
     {"name":"inst_17501A23","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_72205127","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_A453765","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_3DA6DE1E","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4993816A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_78FC9C65","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_76437B46","path":"rooms/Room1/Room1.yy",},
@@ -28,11 +27,11 @@
     {"name":"inst_24EF1101","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_56ACA016","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_EBD2FC9","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_72052615","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances_2","depth":-94,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"","%Name":"inst_3DA6DE1E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3DA6DE1E","objectId":{"name":"WeaponsScreen","path":"objects/WeaponsScreen/WeaponsScreen.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":17.5,"scaleY":10.0,"x":-160.0,"y":1664.0,},
         {"$GMRInstance":"","%Name":"inst_4993816A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4993816A","objectId":null,"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":736.0,},
         {"$GMRInstance":"","%Name":"inst_78FC9C65","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_78FC9C65","objectId":{"name":"WeaponsButton","path":"objects/WeaponsButton/WeaponsButton.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":992.0,},
         {"$GMRInstance":"","%Name":"inst_76437B46","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76437B46","objectId":{"name":"UpgradeShrub","path":"objects/UpgradeShrub/UpgradeShrub.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.8,"scaleY":0.8,"x":1408.0,"y":960.0,},
@@ -45,6 +44,7 @@
         {"$GMRInstance":"","%Name":"inst_24EF1101","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_24EF1101","objectId":{"name":"HeadsUp","path":"objects/HeadsUp/HeadsUp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1696.0,"y":640.0,},
         {"$GMRInstance":"","%Name":"inst_56ACA016","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56ACA016","objectId":{"name":"Centipedeheadobj","path":"objects/Centipedeheadobj/Centipedeheadobj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":1216.0,},
         {"$GMRInstance":"","%Name":"inst_EBD2FC9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_EBD2FC9","objectId":{"name":"Minimap","path":"objects/Minimap/Minimap.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1344.0,"y":1056.0,},
+        {"$GMRInstance":"","%Name":"inst_72052615","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_72052615","objectId":{"name":"GrassArea","path":"objects/GrassArea/GrassArea.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1280.0,"y":1120.0,},
       ],"layers":[],"name":"Instances_2","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_2","assets":[],"depth":6,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_2","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":106,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

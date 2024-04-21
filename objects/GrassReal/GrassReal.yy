@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"GrassArea",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"GrassReal",
+  "eventList":[],
   "managed":true,
-  "name":"GrassArea",
+  "name":"GrassReal",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Grass",
+    "path":"sprites/Grass/Grass.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
