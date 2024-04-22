@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Upgrade_Pay",
+    "path":"sprites/Upgrade_Pay/Upgrade_Pay.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(Mainclickplant)
+if(instance_exists(Mainclickplant))
 {
 	direction = point_direction(x,y,Mainclickplant.x, Mainclickplant.y);
 }

@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Player_Character",
-    "path":"sprites/Player_Character/Player_Character.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

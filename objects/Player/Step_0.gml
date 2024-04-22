@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_angle = point_direction(x, y, mouse_x, mouse_y);
 if(xspeed > 0)
 {
 	xspeed -= 1;
@@ -40,18 +39,24 @@ if(y < 500)
 x += xspeed;
 y += yspeed;
 if(keyboard_check(ord("A"))) {
+	  sprite_index = Player_Left
       xspeed = -10;
-      dir = -1;
+      dir = 0;
 }
 if (keyboard_check(ord("D"))){
+	  sprite_index = Player_Right
       xspeed = 10;
       dir = 1;
 }
 if (keyboard_check(ord("W"))){
+	 sprite_index = Player_Up
 	 yspeed = -10;
+	 dir = 2
 }
 if (keyboard_check(ord("S"))){
+	 sprite_index = Player_Down
 	 yspeed = 10;
+	 dir = 3
 }
 if (mouse_check_button(mb_left) && !object_get_visible(UpgradeShrub))
 {
@@ -60,5 +65,20 @@ if (mouse_check_button(mb_left) && !object_get_visible(UpgradeShrub))
 	instance_create_layer(x, y, layer, Bulletcasingobj);
 }
 else {
-      dir = 0;
+      if(dir == 0 and xspeed == 0 and yspeed == 0)
+	  {
+		  sprite_index = Idle_Left
+	  }
+	  if(dir == 1 and xspeed == 0 and yspeed == 0)
+	  {
+		  sprite_index = Idle_Right
+	  }
+	  if(dir == 2 and xspeed == 0 and yspeed == 0)
+	  {
+		  sprite_index = Idle_Up
+	  }
+	  if(dir == 3 and xspeed == 0 and yspeed == 0)
+	  {
+		  sprite_index = Idle_Down
+	  }
 }

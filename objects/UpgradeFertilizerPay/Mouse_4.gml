@@ -2,7 +2,7 @@
 // You can write your code in this editor
 with GameManager
 {
-	automaticgain *= 2
+	boostactive = false
 }
 
 alarm[0] = 3600;

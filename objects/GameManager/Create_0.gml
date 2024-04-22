@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 scores = 0;
+boostactive = false;
 ispaused = false
 automaticgain = 0;
 alarm[0] = 60;
@@ -14,7 +15,7 @@ currentgridx = 0;
 currentgridy = 0;
 currlength = 1;
 currcount = 0;
-currWave = 1;
+currwave = 0;
 enemiesSpawned = 0;
 waveenemies = []
 view_camera[0] = camera_create_view(1000, 750, 1300, 750, 0, Player, -1, -1, 2000, 2000);
