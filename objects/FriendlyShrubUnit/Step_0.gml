@@ -10,8 +10,7 @@ if(alarm_get(0) <= 1)
 	if(closest)
 	{
 	image_angle = point_direction(x, y, closest.x, closest.y);
-	
-	}
 	instance_create_layer(x,y,"Instances", PlantBullet);
+	}
 	alarm[0] = 60;
 }
