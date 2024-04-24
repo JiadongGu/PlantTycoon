@@ -5,7 +5,7 @@ var x_end = 4000
 var y_end = 4000;
 objtest = GrassReal
 
-var number_of_grasses = 1500;
+var number_of_grasses = 2500;
 
 // Loop to create grass instances
 for (var i = 0; i < number_of_grasses; i++) {

@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(playerhealth <= 0)
+{
+	room_goto(Lossroom)
+}
 if(xspeed > 0)
 {
 	xspeed -= 1;

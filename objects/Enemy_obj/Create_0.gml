@@ -3,3 +3,4 @@
 speed = 8
 hp = 10
 depth = 0
+damagedperiod = 0

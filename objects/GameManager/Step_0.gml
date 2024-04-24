@@ -21,6 +21,10 @@ if(alarm_get(2) <= 1)
 	{
 		alarm_set(2,1000)
 		currwave += 1
+		if(currwave >= 11)
+		{
+			room_goto(Winroom)
+		}
 		var wavecount = currwave * 10
 		var superenemyCoefficient = currwave * 10
 		for(var i = 0; i <= wavecount; i++)

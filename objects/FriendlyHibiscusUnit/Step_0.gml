@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 var closest = instance_nearest(x,y,Enemy_obj)
-if(closest == noone)
+if(not closest)
 {
 	closest = instance_nearest(x,y,Superenemy)
 }

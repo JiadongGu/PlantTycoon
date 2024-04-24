@@ -3,5 +3,5 @@
 if(hp <= 0)
 {
 	instance_destroy(id)
-	instance_create_layer(Player.x,Player.y,"Instances",GameOverPopup)
+	room_goto(Lossroom)
 }

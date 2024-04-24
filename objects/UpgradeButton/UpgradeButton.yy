@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Upgrade_Base",
-    "path":"sprites/Upgrade_Base/Upgrade_Base.yy",
+    "name":"Boostbttn",
+    "path":"sprites/Boostbttn/Boostbttn.yy",
   },
   "spriteMaskId":null,
   "visible":true,
