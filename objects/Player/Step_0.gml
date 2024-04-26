@@ -64,7 +64,9 @@ if (keyboard_check(ord("S"))){
 }
 if (mouse_check_button(mb_left) && !object_get_visible(UpgradeShrub))
 {
-	instance_create_layer(x, y, layer, Bullet);
+	var bulx = x + lengthdir_x(30, PesticideLauncher.image_angle) // returns the x component
+	var buly = y + lengthdir_y(30, PesticideLauncher.image_angle) // returns the y component
+	instance_create_layer(bulx, buly, layer, Bullet);
 	instance_create_layer(x, y, layer, Screenflash);
 	instance_create_layer(x, y, layer, Bulletcasingobj);
 }

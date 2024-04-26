@@ -7,3 +7,7 @@ if(alarm[0] < 0)
 	image_yscale *= 1.01
 	image_alpha -= 0.001
 }
+if(alarm[1] < 0)
+{
+	instance_destroy(id)
+}

@@ -6,8 +6,10 @@ image_angle = point_direction(x, y, mouse_x, mouse_y)-180;
 if(image_angle >= 0 and image_angle <= 180)
 {
 	depth = 10
+	image_yscale = -1
 }
 else
 {
 	depth = 300
+	image_yscale = -1
 }

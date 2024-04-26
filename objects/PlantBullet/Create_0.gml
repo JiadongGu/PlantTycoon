@@ -5,6 +5,14 @@ if (not closest)
 {
 	closest = instance_nearest(x,y,Superenemy)
 }
+if(not closest)
+{
+	closest = instance_nearest(x,y,Centipedebodyobj)
+}
+if(not closest)
+{
+	closest = instance_nearest(x,y,Centipedeheadobj)
+}
 if(closest)
 {
 	direction = point_direction(x, y, closest.x+closest.speed, closest.y);

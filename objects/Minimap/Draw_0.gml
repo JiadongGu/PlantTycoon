@@ -10,9 +10,25 @@ draw_rectangle(xp, yp, xp+width, yp+height, false)
 draw_set_color(c_yellow)
 draw_set_alpha(.80)
 var doorcount;
-doorcount = instance_number(Enemy_obj)
-for (k=0; k<doorcount; k=k+1) {
-doorid = instance_find(Enemy_obj,k)
+enemycount = instance_number(Enemy_obj)
+supercount = instance_number(Superenemy)
+for (k=0; k<enemycount; k=k+1) {
+if(instance_exists(Enemy_obj))
+{
+	doorid = instance_find(Enemy_obj,k)
+}
+var wherex = xp+doorid.x*(xscale)
+var wherey = yp+doorid.x*(yscale)
+draw_set_color(c_yellow)
+draw_circle(wherex,wherey,2,false)
+draw_set_color(c_green)
+draw_circle(xp+xscale/2,yp+yscale/2,2,false)
+}
+for (k=0; k<supercount; k=k+1) {
+if(instance_exists(Superenemy))
+{
+	doorid = instance_find(Superenemy,k)
+}
 var wherex = xp+doorid.x*(xscale)
 var wherey = yp+doorid.x*(yscale)
 draw_set_color(c_yellow)

@@ -6,8 +6,8 @@ if (mouse_check_button(mb_left) && alarm_get(0) <= 0)
 {
 	with GameManager
 	{
-		if(scores > 75){
-			scores -= 75;
+		if(scores > 300){
+			scores -= 300;
 			GameManager.automaticgain += 10;
 			with ScoreDisplay
 			{
