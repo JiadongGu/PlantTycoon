@@ -2,3 +2,4 @@
 // You can write your code in this editor
 speed = 8
 hp = 100
+takingdamage = false

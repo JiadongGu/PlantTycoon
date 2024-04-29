@@ -17,7 +17,7 @@ function changetext(input){
 }
 function changeshrubs(input){
 	shrubcount += 1;
-	shrubincome += 1;
+	shrubincome += 2;
 	shrubtext = "Shrubs: " + string(shrubcount) + ". Making " + string(shrubincome) + "$/second";
 }
 function changepalms(input){
@@ -27,7 +27,7 @@ function changepalms(input){
 }
 function changehibiscus(input){
 	hibiscuscount += 1;
-	hibiscusincome += 20;
+	hibiscusincome += 10;
 	hibiscustext = "Hibiscus flowers: " + string(hibiscuscount) + ". Making " + string(hibiscusincome) + "$/second";
 }
 

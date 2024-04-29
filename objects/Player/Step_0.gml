@@ -20,7 +20,7 @@ if(yspeed < 0)
 {
 	yspeed += 1;
 }
-if(x < 500)
+/*if(x < 500)
 {
 	xspeed = 0
 	x += 20
@@ -39,7 +39,7 @@ if(y < 500)
 {
 	yspeed = 0;
 	y += 20
-}
+}*/
 x += xspeed;
 y += yspeed;
 if((xspeed != 0 or yspeed != 0) and alarm[0] <= 0)
@@ -66,6 +66,24 @@ if (keyboard_check(ord("S"))){
 	 sprite_index = Player_Down
 	 yspeed = 10;
 	 dir = 3
+}
+if (keyboard_check(ord("E"))){
+	 if(dir == 0)
+	 {
+		 xspeed = -50
+	 }
+	 if(dir == 1)
+	 {
+		 xspeed = 50
+	 }
+	 if(dir == 2)
+	 {
+		 yspeed = -50
+	 }
+	 if(dir == 3)
+	 {
+		 yspeed = 50
+	 }
 }
 if (mouse_check_button(mb_left) && !object_get_visible(UpgradeShrub))
 {

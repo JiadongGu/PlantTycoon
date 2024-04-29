@@ -6,7 +6,7 @@ if (mouse_check_button(mb_left) && alarm_get(0) <= 0)
 {
 	if(GameManager.scores > 25){
 		GameManager.scores -= 25;
-		GameManager.automaticgain += 1;
+		GameManager.automaticgain += 2;
 		with ScoreDisplay
 		{
 			changeshrubs("Yes")

@@ -1,69 +1,42 @@
 /// @description Insert description here
 // You can write your code in this editor
 /// @description Insert description here
+// You can write your code in this editor/// @description Insert description here
 // You can write your code in this editor
-UpgradeFertilizer.visible = false
-UpgradeFertilizerPay.visible = false
-UpgradePesticide.visible = false
-UpgradePesticidePay.visible = false
-if(UpgradeCloseBtn.visible == true){
-	UpgradeCloseBtn.visible = false;
-	//instance_deactivate_object(UpgradeCloseBtn)
+UpgradeHibiscus.visible = false
+UpgradeHibiscusPay.visible = false
+UpgradePalm.visible = false
+UpgradeTreePay.visible = false
+UpgradeShrub.visible = false
+UpgradeShrubPay.visible = false;
+UpgradeCloseBtn.visible = false;
+if(WeaponCloseBtn.visible == true){
+	WeaponCloseBtn.visible = false;
 }
-else if(UpgradeCloseBtn.visible == false){
-	UpgradeCloseBtn.visible = true;
-	//instance_activate_object(UpgradeCloseBtn)
+else if(WeaponCloseBtn.visible == false){
+	WeaponCloseBtn.visible = true;
 }
-
-
-if(UpgradeHibiscus.visible == true){
-	UpgradeHibiscus.visible = false;
-	//instance_deactivate_object(UpgradeHibiscus)
+if(UpgradeFertilizer.visible == true){
+	UpgradeFertilizer.visible = false;
 }
-else if(UpgradeHibiscus.visible == false){
-	UpgradeHibiscus.visible = true;
-	//instance_activate_object(UpgradeHibiscus)
+else if(UpgradeFertilizer.visible == false){
+	UpgradeFertilizer.visible = true;
 }
-if(UpgradePalm.visible == true){
-	UpgradePalm.visible = false;
-	//instance_deactivate_object(UpgradePalm)
+if(UpgradeFertilizerPay.visible == true){
+	UpgradeFertilizerPay.visible = false;
 }
-else if(UpgradePalm.visible == false){
-	UpgradePalm.visible = true;
-	//instance_activate_object(UpgradePalm)
+else if(UpgradeFertilizerPay.visible == false){
+	UpgradeFertilizerPay.visible = true;
 }
-
-if(UpgradeShrub.visible == true){
-	UpgradeShrub.visible = false;
-	//instance_deactivate_object(UpgradeShrub)
+if(UpgradePesticide.visible == true){
+	UpgradePesticide.visible = false;
 }
-else if(UpgradeShrub.visible == false){
-	UpgradeShrub.visible = true;
-	//instance_activate_object(UpgradeShrub)
+else if(UpgradePesticide.visible == false){
+	UpgradePesticide.visible = true;
 }
-
-
-
-if(UpgradeShrubPay.visible == true){
-	UpgradeShrubPay.visible = false;
-	//instance_deactivate_object(UpgradeShrubPay)
+if(UpgradePesticidePay.visible == true){
+	UpgradePesticidePay.visible = false;
 }
-else if(UpgradeShrubPay.visible == false){
-	UpgradeShrubPay.visible = true;
-	//instance_activate_object(UpgradeShrubPay)
-}
-
-
-if(UpgradeTreePay.visible == true){
-	UpgradeTreePay.visible = false;
-}
-else if(UpgradeTreePay.visible == false){
-	UpgradeTreePay.visible = true;
-}
-
-if(UpgradeHibiscusPay.visible == true){
-	UpgradeHibiscusPay.visible = false;
-}
-else if(UpgradeHibiscusPay.visible == false){
-	UpgradeHibiscusPay.visible = true;
+else if(UpgradePesticidePay.visible == false){
+	UpgradePesticidePay.visible = true;
 }
