@@ -42,6 +42,11 @@ if(y < 500)
 }
 x += xspeed;
 y += yspeed;
+if((xspeed != 0 or yspeed != 0) and alarm[0] <= 0)
+{
+	alarm[0] = 60
+	audio_play_sound(Walking, 1, false);
+}
 if(keyboard_check(ord("A"))) {
 	  sprite_index = Player_Left
       xspeed = -10;
@@ -64,11 +69,11 @@ if (keyboard_check(ord("S"))){
 }
 if (mouse_check_button(mb_left) && !object_get_visible(UpgradeShrub))
 {
-	var bulx = x + lengthdir_x(30, PesticideLauncher.image_angle) // returns the x component
-	var buly = y + lengthdir_y(30, PesticideLauncher.image_angle) // returns the y component
+	var bulx = PesticideLauncher.x 
+	var buly = PesticideLauncher.y
 	instance_create_layer(bulx, buly, layer, Bullet);
 	instance_create_layer(x, y, layer, Screenflash);
-	instance_create_layer(x, y, layer, Bulletcasingobj);
+	instance_create_layer(bulx, buly, layer, Bulletcasingobj);
 }
 else {
       if(dir == 0 and xspeed == 0 and yspeed == 0)

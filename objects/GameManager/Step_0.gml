@@ -1,6 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 ScoreDisplay.changetext("Score: " + string(scores));
+if(instance_exists(Enemy_obj) or instance_exists(Superenemy))
+{
+	WaveDisplayObj.visible = false
+}
+else
+{
+	WaveDisplayObj.visible = true
+}
 if(alarm_get(0) <= 1)
 {
 	if(boostactive)
@@ -59,18 +67,22 @@ if(alarm_get(2) <= 1)
 				if(determinant == 0)
 				{
 					waveenemies[array_length(waveenemies)] = instance_create_layer(irandom(4000),0,"Instances",Superenemy)
+					//waveenemies[array_length(waveenemies)] = instance_create_layer(irandom(4000),0,"Instances",Centipedehead)
 				}
 				if(determinant == 1)
 				{
 					waveenemies[array_length(waveenemies)] = instance_create_layer(irandom(4000),0,"Instances",Superenemy)
+					//waveenemies[array_length(waveenemies)] = instance_create_layer(irandom(4000),0,"Instances",Centipedehead)
 				}
 				if(determinant == 2)
 				{
 					waveenemies[array_length(waveenemies)] = instance_create_layer(irandom(4000),0,"Instances",Superenemy)
+					//waveenemies[array_length(waveenemies)] = instance_create_layer(irandom(4000),0,"Instances",Centipedehead)
 				}
 				if(determinant == 3)
 				{
 					waveenemies[array_length(waveenemies)] = instance_create_layer(irandom(4000),0,"Instances",Superenemy)
+					//waveenemies[array_length(waveenemies)] = instance_create_layer(irandom(4000),0,"Instances",Centipedehead)
 				}
 			}
 			

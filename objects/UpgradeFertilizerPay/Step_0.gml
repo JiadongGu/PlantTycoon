@@ -6,6 +6,6 @@ if(alarm_get(0) <= 0)
 {
 	with GameManager
 	{
-		boostactive = true;
+		boostactive = false;
 	}
 }

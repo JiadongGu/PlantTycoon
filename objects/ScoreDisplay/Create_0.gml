@@ -27,7 +27,7 @@ function changepalms(input){
 }
 function changehibiscus(input){
 	hibiscuscount += 1;
-	hibiscusincome += 10;
+	hibiscusincome += 20;
 	hibiscustext = "Hibiscus flowers: " + string(hibiscuscount) + ". Making " + string(hibiscusincome) + "$/second";
 }
 
