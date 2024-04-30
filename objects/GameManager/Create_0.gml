@@ -21,6 +21,7 @@ enemiesSpawned = 0;
 waveenemies = []
 //view_camera[0] = camera_create_view(1000,750,1300)
 view_camera[0] = camera_create_view(1000, 750, 1300, 750, 0, Player, -1, -1, 2000, 2000);
+audio_play_sound(MainOST, 0, true);
 if(alarm[3] <= 1)
 {
 	camera_set_view_speed(0,-1,-1)

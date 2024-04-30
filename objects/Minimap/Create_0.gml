@@ -5,5 +5,5 @@ xp = Player.x+300
 yp = Player.y+300
 height = 240
 width = 260
-xscale = width/room_width
-yscale = height/room_height
+xscale = width/4000
+yscale = height/4000

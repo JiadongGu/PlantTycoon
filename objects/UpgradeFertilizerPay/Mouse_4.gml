@@ -2,11 +2,14 @@
 // You can write your code in this editor
 if(visible and GameManager.scores >= 150)
 {
-	GameManager.scores -= 150;
-	with GameManager
+	if(not GameManager.boostactive)
 	{
-		boostactive = true
+		GameManager.scores -= 150;
+		with GameManager
+		{
+			boostactive = true
+		}
+		instance_create_layer(0,0,"Instances",Boostfilter);
+		alarm[0] = 3600;
 	}
-	instance_create_layer(0,0,"Instances",Boostfilter);
-	alarm[0] = 3600;
 }

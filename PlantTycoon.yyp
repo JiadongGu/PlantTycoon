@@ -96,6 +96,8 @@
     {"id":{"name":"ScaryIntroductionRoom","path":"rooms/ScaryIntroductionRoom/ScaryIntroductionRoom.yy",},},
     {"id":{"name":"Winroom","path":"rooms/Winroom/Winroom.yy",},},
     {"id":{"name":"Effects","path":"scripts/Effects/Effects.yy",},},
+    {"id":{"name":"Shootingsound","path":"sounds/Shootingsound/Shootingsound.yy",},},
+    {"id":{"name":"MainOST","path":"sounds/MainOST/MainOST.yy",},},
     {"id":{"name":"Walking","path":"sounds/Walking/Walking.yy",},},
     {"id":{"name":"Basic_Sprite","path":"sprites/Basic_Sprite/Basic_Sprite.yy",},},
     {"id":{"name":"BlueprintSprite","path":"sprites/BlueprintSprite/BlueprintSprite.yy",},},
