@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":74.94528,
+  "duration":0.0,
   "name":"MainOST",
   "parent":{
     "name":"Sounds",

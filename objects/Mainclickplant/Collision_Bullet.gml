@@ -2,5 +2,12 @@
 // You can write your code in this editor
 with GameManager
 {
-	scores += 1;
+	if(boostactive)
+	{
+		scores += 2;
+	}
+	else
+	{
+		scores += 1;
+	}
 }

@@ -31,6 +31,8 @@ if(alarm_get(2) <= 1)
 		currwave += 1
 		if(currwave >= 11)
 		{
+			audio_stop_all()
+			audio_play_sound(VictorySound,0,false)
 			room_goto(Winroom)
 		}
 		var wavecount = currwave * 10

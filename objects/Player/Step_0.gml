@@ -2,6 +2,8 @@
 // You can write your code in this editor
 if(playerhealth <= 0)
 {
+	audio_stop_all()
+	audio_play_sound(LossSound, 0, false);
 	room_goto(Lossroom)
 }
 if(xspeed > 0)

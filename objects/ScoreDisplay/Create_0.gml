@@ -3,7 +3,7 @@
 draw_set_colour(c_white);
 
 text = "Money: 0"
-shrubtext = "Shrubs: 0. Making 0$/second"
+shrubtext = "Plants: 0. Making 0$/second"
 palmtext = "Palm trees: 0. Making 0$/second"
 hibiscustext = "Hibiscus flowers: 0. Making 0$/second"
 shrubincome = 0
@@ -18,11 +18,11 @@ function changetext(input){
 function changeshrubs(input){
 	shrubcount += 1;
 	shrubincome += 2;
-	shrubtext = "Shrubs: " + string(shrubcount) + ". Making " + string(shrubincome) + "$/second";
+	shrubtext = "Plants: " + string(shrubcount+palmcount+hibiscuscount) + ". Making " + string(shrubincome+hibiscusincome+palmincome) + "$/second";
 }
 function changepalms(input){
 	palmcount += 1;
-	palmincome += 10;
+	palmincome += 5;
 	palmtext = "Palm trees: " + string(palmcount) + ". Making " + string(palmincome) + "$/second";
 }
 function changehibiscus(input){

@@ -13,6 +13,7 @@
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Pesticide","path":"objects/Pesticide/Pesticide.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Enemy_obj",
@@ -40,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Enemy_Sprite",
-    "path":"sprites/Enemy_Sprite/Enemy_Sprite.yy",
+    "name":"Bug1",
+    "path":"sprites/Bug1/Bug1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
