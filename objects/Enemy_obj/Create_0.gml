@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-speed = 4
+speed = 3
 hp = 10
 depth = 0
 takingdamage = false

@@ -72,19 +72,19 @@ if (keyboard_check(ord("S"))){
 if (keyboard_check(ord("E"))){
 	 if(dir == 0)
 	 {
-		 xspeed = -50
+		 xspeed = -25
 	 }
 	 if(dir == 1)
 	 {
-		 xspeed = 50
+		 xspeed = 25
 	 }
 	 if(dir == 2)
 	 {
-		 yspeed = -50
+		 yspeed = -25
 	 }
 	 if(dir == 3)
 	 {
-		 yspeed = 50
+		 yspeed = 25
 	 }
 }
 if (mouse_check_button(mb_left) && !object_get_visible(UpgradeShrub))

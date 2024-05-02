@@ -19,6 +19,7 @@ if(alarm_get(0) <= 1)
 	{
 	//image_angle = point_direction(x, y, closest.x, closest.y);
 	instance_create_layer(x,y,"Instances", PlantBullet);
+	audio_play_sound(ShrubShoot, 2, false);
 	}
 	alarm[0] = 60;
 }
