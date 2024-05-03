@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(alarm[1] <= 0)
+{
+	DamagedScreen.visible = false
+}
 if(hp <= 0)
 {
 	instance_destroy(id)

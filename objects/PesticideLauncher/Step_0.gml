@@ -19,4 +19,4 @@ if(y > ypos)
 	y -= 7
 }
 image_angle = point_direction(x, y, mouse_x, mouse_y)-180;
-depth = -3000
+depth = -1

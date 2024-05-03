@@ -7,6 +7,7 @@ if(instance_exists(Mainclickplant))
 }
 if(hp <= 0)
 {
+	GameManager.scores += 1;
 	audio_play_sound(EnemyDeathSound, 0, false);
 	instance_destroy();
 }

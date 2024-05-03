@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-visible = false
+hp -= 3
+DamagedScreen.visible = true
+alarm[1] = 30
