@@ -7,6 +7,7 @@ if (mouse_check_button(mb_left) && alarm_get(0) <= 0)
 	if(GameManager.scores > 300){
 		GameManager.scores = GameManager.scores - 300;
 		GameManager.automaticgain += 10;
+		audio_play_sound(SpritePlaced,0,false)
 		with ScoreDisplay
 		{
 			changehibiscus("Yes")
