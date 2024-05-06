@@ -3,7 +3,7 @@
 if(visible and GameManager.scores >= 150)
 {
 	GameManager.scores -= 150;
-	alarm[0] = 3600;
+	alarm[0] = 600;
 	for (var i = 0; i < 3000; i++)
 	{
 		x = irandom_range(0,4000)

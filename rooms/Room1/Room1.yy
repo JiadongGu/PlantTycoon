@@ -30,11 +30,11 @@
     {"name":"inst_41CE318D","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2A17AA30","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7056B207","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_35B9DD63","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_434B9818","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_3965D5FC","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4D8A42B4","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_760DE93C","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_35B9DD63","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[

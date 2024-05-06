@@ -100,19 +100,19 @@ if(alarm_get(2) <= 1)
 				}
 				if(determinant == 1)
 				{
-					waveenemies[array_length(waveenemies)] = instance_create_layer(irandom(4000),0,"Instances",Superenemy)
+					waveenemies[array_length(waveenemies)] = instance_create_layer(irandom(4000),4000,"Instances",Superenemy)
 					//instance_create_layer(irandom(4000),0,"Instances",Centipedehead)
 					//waveenemies[array_length(waveenemies)] = instance_create_layer(irandom(4000),0,"Instances",Centipedehead)
 				}
 				if(determinant == 2)
 				{
-					waveenemies[array_length(waveenemies)] = instance_create_layer(irandom(4000),0,"Instances",Superenemy)
+					waveenemies[array_length(waveenemies)] = instance_create_layer(0,irandom(4000),"Instances",Superenemy)
 					//instance_create_layer(irandom(4000),0,"Instances",Centipedehead)
 					//waveenemies[array_length(waveenemies)] = instance_create_layer(irandom(4000),0,"Instances",Centipedehead)
 				}
 				if(determinant == 3)
 				{
-					waveenemies[array_length(waveenemies)] = instance_create_layer(irandom(4000),0,"Instances",Superenemy)
+					waveenemies[array_length(waveenemies)] = instance_create_layer(4000,irandom(4000),"Instances",Superenemy)
 					//instance_create_layer(irandom(4000),0,"Instances",Centipedehead)
 					//waveenemies[array_length(waveenemies)] = instance_create_layer(irandom(4000),0,"Instances",Centipedehead)
 				}
