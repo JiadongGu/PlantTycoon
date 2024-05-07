@@ -6,6 +6,7 @@ UpgradePalm.visible = false
 UpgradeTreePay.visible = false
 UpgradeShrub.visible = false
 UpgradeShrubPay.visible = false;
+UpgradeCloseBtn.visible = false
 if(WeaponCloseBtn.visible == true){
 	WeaponCloseBtn.visible = false;
 }

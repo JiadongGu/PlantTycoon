@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Sprite",
+  "%Name":"Air",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Sprite",
+  "name":"Air",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite57",
-    "path":"sprites/Sprite57/Sprite57.yy",
+    "name":"Airborne",
+    "path":"sprites/Airborne/Airborne.yy",
   },
   "spriteMaskId":null,
   "visible":true,
