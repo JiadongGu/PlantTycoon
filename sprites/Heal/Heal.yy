@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"Heal",
   "bboxMode":0,
-  "bbox_bottom":231,
+  "bbox_bottom":287,
   "bbox_left":12,
   "bbox_right":387,
   "bbox_top":174,

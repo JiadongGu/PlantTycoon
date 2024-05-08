@@ -6,5 +6,9 @@ if(Healobj.visible)
 	{
 		GameManager.scores -= 200
 		hp += 500
+		if(Player.playerhealth <= 3000)
+		{
+			Player.playerhealth += (3000-Player.playerhealth)
+		}
 	}
 }
